@@ -35,6 +35,7 @@ public class Immortal{
                     hscore = s;
                     hmut = child;
                 }
+                Thread.sleep(100);
             }
             System.out.println(hmut + hscore);
             IOUtils.closeQuietly(is);
@@ -105,7 +106,6 @@ public class Immortal{
                 break;
         }
         out = s.toString();
-        Thread.sleep(100);
         return out;
     }
 }
