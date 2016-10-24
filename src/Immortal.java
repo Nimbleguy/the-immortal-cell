@@ -105,7 +105,7 @@ public class Immortal{
                 break;
         }
         out = s.toString();
-        Thread.sleep(0.1);
+        Thread.sleep(100);
         return out;
     }
 }
